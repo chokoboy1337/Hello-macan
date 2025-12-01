@@ -1,0 +1,13 @@
+import tkinter as tk
+from tkinter import *
+
+root = Tk()
+
+root.title("MACAN")
+root.wm_iconbitmap(default = "currency_blockchain_cryptocurrency_coin_bitcoin_icon_267148.ico")
+root.geometry("300x250")
+
+label_1_hello_world= Label(text = "macan")
+label_1_hello_world.pack()
+
+root.mainloop()
